@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Stats preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -16,18 +16,27 @@
 </head>
 <body>
 
-  Get insights that help your business grow.
+  <div class="content">
+    <div class="leftColumn">
+      <h1 class="title">Get <span class="purpleWord">insights</span> that help your business grow.</h1>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+      <p class="description opacity">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+      experience, and overall efficiency.</p>
 
-  10k+ companies
-  314 templates
-  12m+ queries
+      <div class="data">
+        <div class="companies"><p class="number">10k+</p><p class="name opacity">companies</p></div>
+        <div class="templates"><p class="number">314</p><p class="name opacity">templates</p></div>
+        <div class="queries"><p class="number">12m+</p><p class="name opacity">queries</p></div>
+      </div>
+    </div>
 
-  <div class="attribution">
+    <div class="rightColumn">
+      <div class="purpleBanner"></div>
+    </div>
+  </div>
+  <div class="attribution" style="color: white;">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/barbaradamasdev/">Barbara Damasceno</a>.
   </div>
 </body>
 </html>
