@@ -47,6 +47,7 @@ body {
 .rightColumn {
     width: 100%;
     height: 100%;
+     /* Changed link because on github was not working for some reason */
     background-image: url(https://raw.githubusercontent.com/barbaradamasdev/Stats-preview-card-component/main/images/image-header-desktop.jpg);
     background-color: var(--accentViolet);
     background-blend-mode: multiply;
